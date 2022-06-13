@@ -1,4 +1,4 @@
-# midterm&final:resnet18&vit_cifar100
+# midterm&final: Resnet18 and vit for cifar100
 
 This is my midterm homework.The main code is from https://github.com/weiaicunzai/pytorch-cifar100. I will only upload the modified python file to this project. All the unchanged files are not uploaded.
 
