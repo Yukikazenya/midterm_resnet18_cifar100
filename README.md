@@ -1,7 +1,6 @@
 # midterm&final: Resnet18 and vit for cifar100
 
 Updating for final project:add code for vit in util.py
-----------------------------------------------------------------------
 
 This is my midterm and final homework.The main code is from https://github.com/weiaicunzai/pytorch-cifar100. I will only upload the modified python file to this project. All the unchanged files are not uploaded.
 
