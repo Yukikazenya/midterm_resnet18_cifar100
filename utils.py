@@ -160,6 +160,9 @@ def get_network(args):
     elif args.net == 'stochasticdepth101':
         from models.stochasticdepth import stochastic_depth_resnet101
         net = stochastic_depth_resnet101()
+    elif args.net == 'vit':
+        from vit_pytorch import ViT
+        net = ViT(image_size = 32,patch_size = 4,num_classes = 100,dim = 512,depth = 6,heads = 6,mlp_dim = 1024,dropout = 0.1,emb_dropout = 0.1)
 
     else:
         print('the network name you have entered is not supported yet')
